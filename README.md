@@ -1,13 +1,13 @@
 # Autoscaling
-Implementation of Autoscaling algorithm in multiprocess architecture
+Implementation of Auto scaling algorithm in multiprocess architecture
 
 ## Project structure
 
-server.py - exposing a REST API to get work from clients and provide statistics
+server.py - Exposing a REST API to get work from clients and provide statistics
 
-manager.py - Auto scaling algorithm
+manager.py - Auto scaling algorithm implementation
 
-worker.py - Worker lifecycle management and work task logic
+worker.py - Worker lifecycle management and the actual work logic
 
 
 ### Your feedback is welcomed :)
