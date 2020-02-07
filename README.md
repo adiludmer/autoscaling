@@ -10,4 +10,4 @@ manager.py - Auto scaling algorithm
 worker.py - Worker lifecycle management and work task logic
 
 
-### Your feedback is welcome :)
+### Your feedback is welcomed :)
