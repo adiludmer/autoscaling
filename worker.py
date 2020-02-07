@@ -81,6 +81,5 @@ class Worker(object):
 
 	def _wait(self):
 		self._change_state(STATE_WAITING)
-		self._signal.clear()
 		print("pid %s waiting" % self._process.pid)
 		self._signal.wait()
