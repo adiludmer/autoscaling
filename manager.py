@@ -56,6 +56,8 @@ class WorkManager(object):
 	def _auto_scale(self):
 
 		while not self._shutdown:
+			# !!! This condition should only fulfill when the manager starts,
+			# and the first worker process craeted !!!
 			if self.num_of_all_workers == 0:
 				self._create_worker()
 
